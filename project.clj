@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [com.taoensso/timbre "4.10.0"]]
   :repl-options {:init-ns hello.core}
+  :plugins [[lein-cljfmt "0.6.6"]]
   :main hello.core)
